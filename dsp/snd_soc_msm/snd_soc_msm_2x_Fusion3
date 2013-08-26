@@ -919,8 +919,8 @@ SectionVerb
 	DisableSequence
 		'MultiMedia5 Mixer SLIM_0_TX':1:0
 	EndSequence
-	CapturePCM  11
-	PlaybackPCM  11
+	CapturePCM  40
+	PlaybackPCM  40
 EndSection
 
 SectionVerb
@@ -933,8 +933,8 @@ SectionVerb
 	DisableSequence
 		'MultiMedia5 Mixer AUX_PCM_TX':1:0
 	EndSequence
-	CapturePCM  11
-	PlaybackPCM  11
+	CapturePCM  40
+	PlaybackPCM  40
 EndSection
 
 SectionVerb
@@ -947,8 +947,8 @@ SectionVerb
 	DisableSequence
 		'MultiMedia5 Mixer AUX_PCM_TX':1:0
 	EndSequence
-	CapturePCM  11
-	PlaybackPCM  11
+	CapturePCM  40
+	PlaybackPCM  40
 EndSection
 
 SectionVerb
@@ -959,8 +959,8 @@ SectionVerb
 
 	DisableSequence
 	EndSequence
-	CapturePCM  11
-	PlaybackPCM  11
+	CapturePCM  40
+	PlaybackPCM  40
 EndSection
 
 SectionVerb
@@ -973,8 +973,8 @@ SectionVerb
 	DisableSequence
 		'MultiMedia5 Mixer AFE_PCM_TX':1:0
 	EndSequence
-	CapturePCM  11
-	PlaybackPCM  11
+	CapturePCM  40
+	PlaybackPCM  40
 EndSection
 }
 SectionUseCase."HiFi Lowlatency" {
@@ -1002,7 +1002,7 @@ SectionVerb
 	DisableSequence
 		'HDMI Mixer MultiMedia5':1:0
 	EndSequence
-	PlaybackPCM 11
+	PlaybackPCM 40
 EndSection
 
 SectionVerb
@@ -1015,7 +1015,7 @@ SectionVerb
 	DisableSequence
 		'AUX_PCM_RX Audio Mixer MultiMedia5':1:0
 	EndSequence
-	PlaybackPCM 11
+	PlaybackPCM 40
 EndSection
 
 SectionVerb
@@ -1028,7 +1028,7 @@ SectionVerb
 	DisableSequence
 		'AUX_PCM_RX Audio Mixer MultiMedia5':1:0
 	EndSequence
-	PlaybackPCM 11
+	PlaybackPCM 40
 EndSection
 
 SectionVerb
@@ -1041,7 +1041,7 @@ SectionVerb
 	DisableSequence
 		'AFE_PCM_RX Audio Mixer MultiMedia5':1:0
 	EndSequence
-	PlaybackPCM 11
+	PlaybackPCM 40
 EndSection
 
 SectionVerb
@@ -1052,7 +1052,7 @@ SectionVerb
 
 	DisableSequence
 	EndSequence
-	PlaybackPCM 11
+	PlaybackPCM 40
 EndSection
 
 SectionVerb
@@ -3193,7 +3193,7 @@ SectionModifier
 	DisableSequence
 		'SLIMBUS_0_RX Audio Mixer MultiMedia5':1:0
 	EndSequence
-	PlaybackPCM 11
+	PlaybackPCM 40
 EndSection
 
 SectionModifier
@@ -3206,7 +3206,7 @@ SectionModifier
 	DisableSequence
 		'AUX_PCM_RX Audio Mixer MultiMedia5':1:0
 	EndSequence
-	PlaybackPCM 11
+	PlaybackPCM 40
 EndSection
 
 SectionModifier
@@ -3219,7 +3219,7 @@ SectionModifier
 	DisableSequence
 		'AUX_PCM_RX Audio Mixer MultiMedia5':1:0
 	EndSequence
-	PlaybackPCM 11
+	PlaybackPCM 40
 EndSection
 
 SectionModifier
@@ -3232,7 +3232,7 @@ SectionModifier
 	DisableSequence
 		'AFE_PCM_RX Audio Mixer MultiMedia5':1:0
 	EndSequence
-	PlaybackPCM 11
+	PlaybackPCM 40
 EndSection
 
 SectionModifier
@@ -3271,8 +3271,8 @@ SectionModifier
 	DisableSequence
 		'MultiMedia5 Mixer SLIM_0_TX':1:0
 	EndSequence
-	PlaybackPCM 11
-	CapturePCM 11
+	PlaybackPCM 40
+	CapturePCM 40
 EndSection
 
 SectionModifier
@@ -3285,8 +3285,8 @@ SectionModifier
 	DisableSequence
 		'MultiMedia5 Mixer AUX_PCM_TX':1:0
 	EndSequence
-	PlaybackPCM 11
-	CapturePCM 11
+	PlaybackPCM 40
+	CapturePCM 40
 EndSection
 
 SectionModifier
@@ -3299,8 +3299,8 @@ SectionModifier
 	DisableSequence
 		'MultiMedia5 Mixer AUX_PCM_TX':1:0
 	EndSequence
-	PlaybackPCM 11
-	CapturePCM 11
+	PlaybackPCM 40
+	CapturePCM 40
 EndSection
 
 SectionModifier
@@ -3311,8 +3311,8 @@ SectionModifier
 
 	DisableSequence
 	EndSequence
-	PlaybackPCM 11
-	CapturePCM 11
+	PlaybackPCM 40
+	CapturePCM 40
 EndSection
 
 SectionModifier
@@ -3325,8 +3325,8 @@ SectionModifier
 	DisableSequence
 		'MultiMedia5 Mixer AFE_PCM_TX':1:0
 	EndSequence
-	PlaybackPCM 11
-	CapturePCM 11
+	PlaybackPCM 40
+	CapturePCM 40
 EndSection
 
 SectionModifier
