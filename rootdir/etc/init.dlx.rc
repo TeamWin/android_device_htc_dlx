@@ -202,6 +202,9 @@ on boot
     mkdir /data/misc/location 0770 gps gps
     mkdir /data/misc/location/mq 0770 gps gps
     
+    # Create directory for gpsone daemon
+    mkdir /data/misc/gpsone_d 0770 system gps
+
     # Audio
     chown system audio /dev/tfa9887
     chmod 0664 /dev/tfa9887
