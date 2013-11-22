@@ -7,4 +7,4 @@
 #/dev/block/mmcblk0p24  	/devlog		ext4  	noatime,nosuid,nodev,data=ordered,noauto_da_alloc	wait
 
 # USB storage
-/devices/platform/msm_hsusb_host/usb   /storage/usbdisk        auto    defaults        voldmanaged=usbdisk:auto
+/devices/platform/msm_hsusb_host/usb   auto    auto    defaults           voldmanaged=usbdisk:auto
