@@ -35,8 +35,9 @@ PRODUCT_PACKAGES += \
     init.dlx.usb.rc \
     ueventd.dlx.rc
 
-PRODUCT_PACKAGES += \
-    libnetcmdiface
+# Post boot service
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/init.post_boot.sh:system/etc/init.post_boot.sh
 
 # Recovery
 PRODUCT_PACKAGES += \
@@ -45,6 +46,9 @@ PRODUCT_PACKAGES += \
     detect_key \
     offmode_charging \
     power_test
+
+PRODUCT_PACKAGES += \
+    libnetcmdiface
 
 # NFCEE access control
 ifeq ($(TARGET_BUILD_VARIANT),user)
