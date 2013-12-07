@@ -30,7 +30,6 @@ PRODUCT_COPY_FILES += device/htc/dlx/gps/gps.conf:system/etc/gps.conf
 PRODUCT_PACKAGES += \
     fstab.dlx \
     init.qcom.firmware_links.sh \
-    init.qcom.sh \
     init.dlx.rc \
     init.dlx.usb.rc \
     ueventd.dlx.rc
