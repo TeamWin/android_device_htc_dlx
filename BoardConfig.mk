@@ -125,3 +125,4 @@ TW_NO_USB_STORAGE := true
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 TW_HTC_LED := true
 BOARD_RECOVERY_BLDRMSG_OFFSET := 2048
+RECOVERY_VARIANT := twrp
