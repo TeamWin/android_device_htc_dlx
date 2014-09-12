@@ -1,4 +1,7 @@
 on boot
+    setprop usb.vendor 0bb4
+    setprop usb.product.adb 0c02
+    setprop usb.product.mtpadb 0f87
     write /sys/module/rpm_resources/enable_low_power/L2_cache 1
     write /sys/module/rpm_resources/enable_low_power/pxo 1
     write /sys/module/rpm_resources/enable_low_power/vdd_dig 1
