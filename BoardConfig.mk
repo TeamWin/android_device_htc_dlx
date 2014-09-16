@@ -64,7 +64,7 @@ USE_OPENGL_RENDERER := true
 TARGET_DISPLAY_USE_RETIRE_FENCE := true
 TARGET_USES_C2D_COMPOSITION := true
 TARGET_USES_ION := true
-BOARD_EGL_CFG := device/htc/m7wlv/configs/egl.cfg
+BOARD_EGL_CFG := device/htc/dlx/configs/egl.cfg
 
 # Power
 TARGET_POWERHAL_VARIANT := cm
