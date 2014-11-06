@@ -27,20 +27,6 @@ endif
 
 COMMON_GLOBAL_CFLAGS += -DNO_SECURE_DISCARD
 
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/recovery/etc/fstab.dlx:recovery/root/fstab.dlx \
-    $(LOCAL_PATH)/recovery/etc/init.recovery.dlx.rc:root/init.recovery.dlx.rc \
-    $(LOCAL_PATH)/recovery/etc/lpm.rc:recovery/root/lpm.rc \
-    $(LOCAL_PATH)/recovery/sbin/choice_fn:recovery/root/sbin/choice_fn \
-    $(LOCAL_PATH)/recovery/sbin/detect_key:recovery/root/sbin/detect_key \
-    $(LOCAL_PATH)/recovery/sbin/offmode_charging:recovery/root/sbin/offmode_charging \
-    $(LOCAL_PATH)/recovery/sbin/power_test:recovery/root/sbin/power_test
-
-PRODUCT_PACKAGES += \
-    chargeled \
-    offmode_charging_res_images \
-    offmode_charging_warn_res_images
-
 $(call inherit-product, build/target/product/full.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
